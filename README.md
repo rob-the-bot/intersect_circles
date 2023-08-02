@@ -20,3 +20,8 @@ Circle c4 = Circle(Point(2,0), 1);
 std::vector<Circle> circles = {c1, c2, c3, c4};
 std::vector<Point> intersections = circleIntersect(circles);
 ```
+
+
+`g++ -o example example.cpp intersect_circles.cpp`
+
+`./example`
