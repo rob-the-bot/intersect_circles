@@ -1,5 +1,7 @@
 #pragma once
 #include <memory>
+#include <math.h>
+#include <vector>
 
 class Point {
 public:
