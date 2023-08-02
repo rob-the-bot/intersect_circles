@@ -1,8 +1,7 @@
 ## Detecting circle intersections in C++
 
-An implementation of the Bentley-Ottmann sweep line algorithm 
-for finding all intersections of a set of circles. For an input consisting of
-n circles with k crossings, the algorithm takes time O((n+k) log n). 
+An implementation of the Bentley-Ottmann sweep line algorithm for finding all intersections of a set of circles.
+For an input consisting of n circles with k crossings, the algorithm takes time O((n+k) log n). 
 In cases where k = o(n^2 / log n), this is an improvement on a naive algorithm that tests every pair of circles, and takes O(n^2).
 The algorithm works like the [Bentley-Ottmann algorithm for finding segment intersections](https://en.wikipedia.org/wiki/Bentley%E2%80%93Ottmann_algorithm), 
 but uses circle arcs instead of segments.
