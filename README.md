@@ -9,7 +9,7 @@ but uses circle arcs instead of segments.
 
 ### Example usage
 
-```
+```cpp
 #include "intersect_circles.hpp"
 
 Circle c1 = Circle(Point(0,0), 1); // Circle(center, radius)
@@ -19,4 +19,4 @@ Circle c4 = Circle(Point(2,0), 1);
 
 std::vector<Circle> circles = {c1, c2, c3, c4};
 std::vector<Point> intersections = circleIntersect(circles);
-```cpp
+```
